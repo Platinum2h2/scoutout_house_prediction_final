@@ -1,0 +1,64 @@
+Technical Project - ScoutOut 
+
+Goal: Develop an AI-powered or ML scoring system that ranks off-market or under-the-radar real estate properties based on their investment potential, using public data, historical pricing trends, and market signals/macroeconomic factors.
+
+You will work collaboratively to:
+
+Build and train a machine learning or AI model (or scoring algorithm)
+Develop data pipelines to clean and prepare real estate datasets
+Create a simple prototype UI/dashboard to display scores for properties
+Deliver insights and documentation that could be integrated into ScoutOut’s core product
+
+Coding Languages: Python, SQL, PANDAS.  I recommend you use Google Collab 
+
+Timeline & Weekly Deliverables: 
+Note: The weekly schedule is flexible based on difficulty and progress.  I have front loaded the first few weeks anticipating that these tasks may take longer.  If more time is needed - such as an extra week to refine a regression model - we’ll adjust the timeline to ensure quality isn’t compromised or rushed.
+Week 1: Project Kickoff & Research + Data Sourcing & Cleaning
+Get familiar with ScoutOut’s mission and the real estate analytics space
+Research what makes a property “high-potential” - this with regards to dividend potential, price appreciation, location etc.
+Team Deliverable: 3 page write up of key features to include in a predictive model (e.g., neighborhood growth, past pricing trends, lot size)
+Identify and collect property-related data from public APIs or CSVs
+Begin cleaning and formatting into usable datasets.  Data should be presentable and easy to understand
+Team Deliverable: Clean data set/dictionary with around 5-10 candidate features per property (attributes used to form prediction).  3 page write up on the process and methodology that went into cleaning your data set 
+Individual Deliverable: Clean data set/dictionary with around 5-10 candidate features per property (attributes used to form prediction).  1+ page write up on process and methodology
+
+
+
+
+
+Week 2: Modeling - Phase 1
+Build a basic regression or scoring model using historical data
+Determine what the scoring system looks like (its scale)
+Choose a regression model to work with (linear, non linear, logistic, polynomial etc.)
+Train the model on known successful investment properties vs. average properties (to do this you will need to rate the successful investment properties yourself)
+Test the model with other property data
+Deliverable:  Model + explanation of methodology.  You will submit your code (collaborative) and a collaborative 3-4+ page write up explaining your methodology and process in creating the regression.  Why did your group choose to use this specific regression model?  This should mention the factors considered in your regression and why you believe they are important in building out your scoring model.  
+Individual Deliverable: Model + explanation of methodology.  You will submit your code and a 1 page write up explaining your methodology and process in creating the regression.
+
+Week 3: Modeling - Phase 2 & Evaluation
+Refine model (e.g., test methods, add other features/attributes to make it more accurate). Reconsider the regression model being used.
+Begin building simple UI (user interface) 
+Deliverable: Improved model (code) + models results (separate document).  Model results should be organized and should consist of scores for a subset of properties.  These properties should be detailed thoroughly in your report. 
+Individual Deliverable: Updated model (code) + model results (separate document).  
+
+
+
+
+
+Week 4: UI & Front-End Prototype
+Allow manual input of property data and return predicted opportunity score.  Finalization of UI
+Deliverable: Interactive prototype demo.  For this you will submit your updated code that allows users to input data manually into the system and the finalized UI.  Submit a 3+ page final report and begin to build a slide deck presentation.
+Individual Deliverable: Interactive prototype demo.  For this you will submit your updated code that allows users to input data manually into the system and the finalized UI.   
+
+
+Week 5: Final Presentation & Handoff
+Finalize code, documentation, and project summary
+Present key insights, technical design, and recommendations to ScoutOut 
+Deliverable: Working prototype/code and slide deck presentation for ScoutOut team
+
+Data/Resources that may be useful:
+https://www.kaggle.com/datasets/ahmedshahriarsakib/usa-real-estate-dataset
+https://corgis-edu.github.io/corgis/csv/real_estate/’
+https://www.zillowgroup.com/developers/
+https://www.rentcast.io/api
+https://scoutout.ai/ 
